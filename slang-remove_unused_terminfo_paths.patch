@@ -1,0 +1,17 @@
+--- slang-2.2.3/src/sltermin.c.orig	2010-12-13 08:18:53.000000000 +0100
++++ slang-2.2.3/src/sltermin.c	2011-01-21 19:39:02.530359941 +0100
+@@ -237,14 +237,8 @@
+ #ifdef MISC_TERMINFO_DIRS
+    MISC_TERMINFO_DIRS,
+ #endif
+-   "/usr/local/etc/terminfo",
+-   "/usr/local/share/terminfo",
+-   "/usr/local/lib/terminfo",
+    "/etc/terminfo",
+    "/usr/share/terminfo",
+-   "/usr/lib/terminfo",
+-   "/usr/share/lib/terminfo",
+-   "/lib/terminfo",
+    NULL,
+ };
+ 
