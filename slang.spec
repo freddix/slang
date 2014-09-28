@@ -1,7 +1,8 @@
+# based on PLD Linux spec git://git.pld-linux.org/packages/.git
 Summary:	Shared library for C like extension language
 Name:		slang
 Version:	2.2.4
-Release:	1
+Release:	2
 Epoch:		1
 License:	GPL
 Group:		Libraries
@@ -18,7 +19,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %define		_includedir	%{_prefix}/include/slang
 
 %description
-Slang (pronounced ``sssslang'') is a powerful stack based interpreter
+Slang (pronounced "sssslang") is a powerful stack based interpreter
 that supports a C-like syntax. It has been designed from the beginning
 to be easily embedded into a program to make it extensible. Slang also
 provides a way to quickly develop and debug the application embedding
